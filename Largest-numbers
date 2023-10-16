@@ -9,8 +9,8 @@ num = int(input("Enter number of elements in list: "))
  
 # Iterating till num to append elements in list
 for i in range(1, num + 1):
-    ele = int(input("Enter elements: "))
-    x.append(ele)
+    e= int(input("Enter elements: "))
+    x.append(e)
  
 # Printing maximum element
 print("Largest element is:", max(x))
