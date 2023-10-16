@@ -2,7 +2,7 @@
 # number in a list
  
 # Creating an empty list
-list1 = []
+x = []
  
 # asking number of elements to put in list
 num = int(input("Enter number of elements in list: "))
@@ -10,7 +10,7 @@ num = int(input("Enter number of elements in list: "))
 # Iterating till num to append elements in list
 for i in range(1, num + 1):
     ele = int(input("Enter elements: "))
-    list1.append(ele)
+    x.append(ele)
  
 # Printing maximum element
-print("Largest element is:", max(list1))
+print("Largest element is:", max(x))
